@@ -29,6 +29,7 @@ group: "navigation"
       {% for news in paginator.posts %}
       <section>
         <h4><a href="{{news.url}}">{{news.title}}</a></h4>
+        <time>{{ news.date | date_to_string }}</time>
         <p>{{news.meta | truncatewords: 50}}</p>
         <hr />
       </section>
