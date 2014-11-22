@@ -1,3 +1,9 @@
 markdown: redcarpet
 baseurl: /
 exclude: ['README.md']
+
+
+name: Herve Falciani
+description: Herve Falciani news and latest posts. Whistle blower.
+
+disqus: ajinkyax
