@@ -6,3 +6,5 @@ name: Herve Falciani
 description: Herve Falciani news and latest posts. Whistle blower.
 
 disqus: ajinkyax
+
+paginate: 5
