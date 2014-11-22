@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: India has Less Than 1% Info on Black Money
 meta: In an interview with NDTV,Falciani said that in 2011 France has shared the list of Indians who allegedly hold bank accounts at HSBC with the government which is "just the tip of the iceberg" and also added the fact that India was given only 2 MB of the 200 GB of data and so they have less than 1 percent of the information from the original data.
 category: news
