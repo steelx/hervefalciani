@@ -9,4 +9,4 @@ category: news
 
 In an exclusive interview to NDTV, black money's biggest crusader Herve Falciani, who stole data from the HSBC bank and gave it to French authorities to compile the HSBC list, says the information that India got was less than one per cent and that he can help in getting more information.
 
-{% youtube IFO2BBNWalU %}
+[![ScreenShot](http://img.youtube.com/vi/IFO2BBNWalU/0.jpg)](http://youtu.be/IFO2BBNWalU)
