@@ -10,7 +10,7 @@ group: "navigation"
 {% for news in paginator.posts %}
 <div class="post">
   <a href="{{news.url}}">{{news.title}}</a>
-  <time>{{post.date | date: "%m-%d-%Y"}}</time>
+
   <p>{{news.meta}}</p>
 </div>
 {% endfor %}
