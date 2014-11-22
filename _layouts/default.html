@@ -3,19 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Herve Falciani</title>
-  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
+  <noscript>
+    <link rel="stylesheet" href="{{site.baseurl}}css/skel.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}css/style.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}css/style-xlarge.css" />
+  </noscript>
+  <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
 </head>
-<body>
+<body id="top">
 
-
-<header>
-  <h1>Herve Falciani</h1>
-
-  {% include nav.html navclass='nav-top' %}
+<header id="header">
+  <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="Herve Falciani" /></a>
+  <h1><strong>I am Herve Falciani</strong>, a Franco-Italian systems engineer<br />
+  who since 2009 has been collaborating with<br />
+  numerous European nations by providing information<br />
+  relating to more than 130,000 suspected <br />
+  tax evaders with Swiss bank accounts</h1>
 </header>
 
-{{content}}
+<div id="main">
+  {{content}}
+</div>
 
+
+<footer id="footer">
+  {% include nav.html navclass='icons' %}
+  <ul class="copyright">
+    <li>&copy; HerveFalciani.com</li><li>Design: <a href="http://www.ajinkyaxjs.com" target="_blank" rel="friend">ajinkyaxjs.com</a></li>
+  </ul>
+</footer>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.poptrox.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/init.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
