@@ -6,4 +6,10 @@ group: "navigation"
 ---
 
 <h1>News</h1>
-<p>2014</p>
+
+{% for news in site.posts %}
+<div class="post">
+  <a href="{{news.url}}">{{news.title}}</a>
+  <p>{{news.meta}}</p>
+</div>
+{% endfor %}
