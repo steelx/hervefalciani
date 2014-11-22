@@ -3,6 +3,7 @@ layout: default
 title: Herve Falciani NDTV Interview video on India Blackmoney
 meta: An exclusive interview to NDTV, black money's biggest crusader Herve Falciani.
 category: news
+comments: true
 ---
 
 # India has Less Than 1% Info on Black Money, Lots More I Can Offer
