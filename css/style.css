@@ -1016,6 +1016,10 @@
 					color: inherit;
 				}
 
+#disqus_thread {
+	background-color: #8B7E5C;
+	padding: 10px;
+}
 /* Main */
 
 	#main {
