@@ -968,6 +968,13 @@
 			width: 6.25em;
 		}
 
+		.sharing {
+			position: absolute;
+			top: 25px;
+			right: 10px;
+			z-index: 99;
+		}
+
 /* Footer */
 
 	#footer {

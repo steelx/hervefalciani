@@ -5,10 +5,16 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <title>Herve Falciani</title>
   {% if page.meta %}
-  <meta name="description" content="{{page.meta}}">
+  <meta name="description" content='{{page.meta}}'>
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:image" content="{{site.baseurl}}/images/bg.jpg" />
   {% else %}
   <meta name="description" content="Herve Falciani a Franco-Italian systems engineer who since 2009 has been collaborating with numerous European nations by providing information relating to more than 130,000 suspected tax evaders with Swiss bank accounts">
+  <meta property="og:title" content="Herve Falciani, a Franco-Italian systems engineer" />
+  <meta property="og:image" content="{{site.baseurl}}/images/bg.jpg" />
   {% endif %}
+
+  
   <!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
   <link rel="stylesheet" href="{{site.baseurl}}/css/skel.css" />
   <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" />
@@ -16,6 +22,10 @@
   <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
 </head>
 <body id="top">
+
+<aside class="sharing">
+  <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+</aside>
 
 <header id="header">
   <a href="{{site.baseurl}}/index.html" class="image avatar"><img src="/images/avatar.jpg" alt="Herve Falciani" /></a>
