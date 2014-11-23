@@ -1027,6 +1027,21 @@
 	background-color: #8B7E5C;
 	padding: 10px;
 }
+
+/*
+	Google plus
+*/
+.GooglePlusComments { padding:0px;clear:both; }
+.GooglePlusComments li { list-style-type: none; width:100%; margin-bottom:20px; display:block;clear:both; }
+.CommentAuthor { float: left; margin-right: 10px; width: 100px; }
+.CommentAuthor img { width:100px;height:100px;margin-bottom:5px;border: solid 2px white; }
+.CommentHeader a { text-decoration: none; float: left; margin-right: 10px; color: #00628B; }
+.CommentDateTime {}
+.CommentAuthorName { font-weight:bold; }
+.CommentHeader{margin-bottom:5px}
+.CommentContent { text-align:justify;color:#000000; }
+
+
 /* Main */
 
 	#main {
