@@ -5,6 +5,7 @@ baseurl: http://www.hervefalciani.com
 name: Herve Falciani
 description: Herve Falciani news and latest posts. Whistle blower.
 
-disqus: ajinkyax
-
 paginate: 5
+
+gems:
+ - jekyll-sitemap
